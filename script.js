@@ -23,13 +23,13 @@ const scrollBtn = document.getElementById("scroll-btn")
 
 window.addEventListener("scroll", function(){
   if(this.window.scrollY > 150) {
-    scrollBtn.style.display = "block"
+    scrollBtn.style.opacity = "1"
   } else {
-    scrollBtn.style.display = "none"
+    scrollBtn.style.opacity = "0"
   }
 })
 
-scrollBtn.addEventListener("click", function () {
+scrollBtn.addEventListener("click", function() {
   window.scrollTo({
     top: 0,
     left: 0,

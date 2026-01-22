@@ -398,6 +398,7 @@ footer h3 {
     right: 25px;
     bottom: 25px;
     z-index: 8;
+    opacity: 0;
 
     transition: 0.25s;
 }
