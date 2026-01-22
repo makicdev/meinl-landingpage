@@ -18,36 +18,4 @@ The Meinl Landingpage is a small static website focusing on:
 
 The main goal of this project is to practice core frontend concepts and present them in a clear and structured way.
 
----
 
-## 🚀 Live Demo
-
-👉 https://meinl-landingpage.vercel.app/
-
----
-
-## 📦 Getting Started
-
-To run this project locally:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/makicdev/meinl-landingpage.git
-
-
-Navigate into the project directory:
-
-cd meinl-landingpage
-
-
-Open the index.html file in your browser.
-
-No additional dependencies or setup required.
-
-🛠️ Technologies Used
-
-HTML – structure
-
-CSS – styling and layout
-
-JavaScript – basic interactivity
