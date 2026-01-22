@@ -1,5 +1,5 @@
 const wKarte = document.getElementById("Willkommenskarte")
-const cardBtn = document.getElementById("card-btn")
+const closeBtn = document.getElementById("close-btn")
 
 function freezePage() {
   document.body.style.overflow = "hidden";
@@ -14,7 +14,7 @@ setTimeout(function(){
     freezePage()
 }, 3000)
 
-cardBtn.addEventListener("click", function(){
+closeBtn.addEventListener("click", function(){
     wKarte.style.display = "none"
     unfreezePage()
 })

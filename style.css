@@ -249,22 +249,38 @@ header {
     font-size: 1.25rem;
 }
 
-.btn {
-    background-color: red;
-    padding: 15px;
-    color: white;
+.gitlink {
+    display: inline-block;
     text-decoration: none;
-    border: none;
-    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    transition: 0.2s;
+    padding: 5px 10px;
 }
 
-.btn:hover {
+.gitlink:hover {
     background-color: rgba(255, 0, 0, 0.66);
     transform: scale(1.05);
+
 }
 
-.Willkommenskarte .btn {
+.closeBtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+    background-color: red;
+    border: none;
+    color: white;
     font-size: 1.2rem;
+
+    padding: 5px 10px;
+}
+
+.closeBtn:hover {
+    background-color: rgba(255, 0, 0, 0.66);
+    transform: scale(1.05);
 }
 
 footer {
@@ -302,7 +318,69 @@ footer h3 {
     transform: scale(1.05);
 }
 
+@media (max-width: 1200px) {
 
+    .head-container {
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .lang-link {
+        font-size: 1.05rem;
+    }
+
+    .main-link {
+        font-size: 1.1rem;
+        padding: 0 10px;
+    }
+
+    .brands-title {
+        font-size: 2.8rem;
+        margin: 50px auto 25px 120px;
+        line-height: 1.2;
+    }
+
+    .brands-imgs {
+        gap: 20px;
+    }
+
+    .brandimg {
+        margin: 15px;
+        width: 440px;
+    }
+
+    .ueber-meinl-btn {
+        font-size: 1.15rem;
+        top: 70%;
+        right: 42%;
+    }
+
+    .news-container {
+        margin: 40px 20px;
+    }
+
+    .news-header {
+        font-size: 2.8rem;
+    }
+
+    .news-display {
+        gap: 30px;
+    }
+
+    .news-one,
+    .news-two {
+        width: 420px;
+    }
+
+    .Willkommenskarte {
+        width: 400px;
+        height: auto;
+    }
+}
 
 @media (max-width: 768px) {
 
