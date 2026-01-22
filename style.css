@@ -51,10 +51,10 @@ header {
 }
 
 .lang-link:hover,
-.lang-link:active {
+.lang-link:active,
+.lang-link:focus {
     color: red;
 }
-
 
 .main-selector {
     margin: 40px 0 0 0; 
@@ -279,6 +279,31 @@ footer h3 {
     font-weight: 500;
 }
 
+.scroll-btn { 
+    background-color: red;
+    box-shadow: 0px 0px 5px black;
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 8;
+    opacity: 0;
+
+    transition: 0.25s;
+}
+
+.scroll-btn:hover {
+    background-color: rgba(255, 0, 0, 0.66);
+    transform: scale(1.05);
+}
+
+
+
 @media (max-width: 768px) {
 
     body {
@@ -383,28 +408,5 @@ footer h3 {
         font-size: 1rem;
         text-align: center;
     }
-}
-
-.scroll-btn { 
-    background-color: red;
-    box-shadow: 0px 0px 5px black;
-    display: block;
-    padding: 15px;
-    color: white;
-    text-decoration: none;
-    border: none;
-    cursor: pointer;
-    position: fixed;
-    right: 25px;
-    bottom: 25px;
-    z-index: 8;
-    opacity: 0;
-
-    transition: 0.25s;
-}
-
-.scroll-btn:hover {
-    background-color: rgba(255, 0, 0, 0.66);
-    transform: scale(1.05);
 }
 
