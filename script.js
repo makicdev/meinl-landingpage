@@ -18,3 +18,21 @@ cardBtn.addEventListener("click", function(){
     wKarte.style.display = "none"
     unfreezePage()
 })
+
+const scrollBtn = document.getElementById("scroll-btn")
+
+window.addEventListener("scroll", function(){
+  if(this.window.scrollY > 150) {
+    scrollBtn.style.display = "block"
+  } else {
+    scrollBtn.style.display = "none"
+  }
+})
+
+scrollBtn.addEventListener("click", function () {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth"
+  });
+});

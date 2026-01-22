@@ -278,3 +278,132 @@ footer h3 {
     color: whitesmoke;
     font-weight: 500;
 }
+
+@media (max-width: 768px) {
+
+    body {
+        font-size: 15px;
+    }
+
+    .head-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .header-right {
+        align-items: center;
+    }
+
+    .main-selector {
+        margin: 15px 0 0 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .main-selector li {
+        display: block;
+        margin: 8px 0;
+    }
+
+    .main-link {
+        font-size: 1.1rem;
+        padding: 5px 0;
+    }
+
+
+    .brands-title {
+        font-size: 2.2rem;
+        margin: 40px auto 20px auto;
+        text-align: center;
+        line-height: 1.2;
+    }
+
+    .brands-imgs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brandimg {
+        width: 80%;
+        max-width: 280px;
+        margin: 15px 0;
+    }
+
+    .ueber-meinl-btn {
+        position: static;
+        display: inline-block;
+        margin: 15px auto 0 auto;
+        text-align: center;
+    }
+
+    .companysite {
+        text-align: center;
+    }
+
+    .news-container {
+        margin: 30px 15px;
+    }
+
+    .news-header {
+        font-size: 2.2rem;
+        padding: 10px;
+    }
+
+    .news-desc {
+        font-size: 1.2rem;
+    }
+
+    .news-display {
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+
+    .news-one,
+    .news-two {
+        width: 100%;
+        max-width: 420px;
+    }
+
+    .Willkommenskarte {
+        width: 90%;
+        height: auto;
+    }
+
+    .Willkommenskarte .btn {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+        font-size: 1.1rem;
+    }
+
+   
+    footer h3 {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+.scroll-btn { 
+    background-color: red;
+    box-shadow: 0px 0px 5px black;
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 8;
+
+    transition: 0.25s;
+}
+
+.scroll-btn:hover {
+    background-color: rgba(255, 0, 0, 0.66);
+    transform: scale(1.05);
+}
+
