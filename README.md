@@ -13,7 +13,8 @@ Hauptfeatures:
 - **Responsive Layout:** Optimiert für Desktop, Tablet und Mobile via Flexbox und Media Queries.
 - **Interaktive Elemente:** 
   - Willkommen-Popup mit LocalStorage-Speicherung (nur einmal pro Nutzer sichtbar)  
-  - Scroll-Button, der bei Scrollbewegung ein-/ausgeblendet wird  
+  - Scroll-Button, der bei Scrollbewegung ein-/ausgeblendet wird
+- **Custom Scrollbar:** Anpassung von Scrollbar-Farbe und -Design für bessere User Experience  
 - **Hover- und Transition-Effekte:** für Buttons, Bilder und Links  
 - **Client-State mit LocalStorage:** Speicherung von Popup-Status
 - **Saubere Struktur:** Semantisches HTML, gut lesbares CSS und JavaScript
@@ -23,7 +24,7 @@ Hauptfeatures:
 ## Technologien
 
 - **HTML5** – Semantische Struktur, Sections, Articles, Header/Footer  
-- **CSS3** – Flexbox, Media Queries, Hover- und Transition-Effekte, responsive Design  
+- **CSS3** – Flexbox, Media Queries, Hover- und Transition-Effekte, responsive Design, Custom Scrollbar Styling  
 - **JavaScript** – DOM-Manipulation, EventListener, setTimeout, LocalStorage, Scroll-Events  
 
 ---
