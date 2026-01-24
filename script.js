@@ -1,5 +1,6 @@
 const wKarte = document.getElementById("Willkommenskarte")
 const closeBtn = document.getElementById("close-btn")
+const closeBtnNews = document.getElementById("close-btn-news")
 
 function freezePage() {
   document.body.style.overflow = "hidden";
@@ -9,14 +10,17 @@ function unfreezePage() {
   document.body.style.overflow = "";
 }
 
-setTimeout(function(){
-    wKarte.style.display = "block"
-    freezePage()
-}, 3000)
+ if(!localStorage.getItem("popup_shown")){
+    setTimeout(function(){
+        wKarte.style.display = "block"
+        freezePage()
+    }, 3000)
+}
 
 closeBtn.addEventListener("click", function(){
     wKarte.style.display = "none"
     unfreezePage()
+    localStorage.setItem("popup_shown", "true");
 })
 
 const scrollBtn = document.getElementById("scroll-btn")
@@ -36,3 +40,6 @@ scrollBtn.addEventListener("click", function() {
     behavior: "smooth"
   });
 });
+
+
+
