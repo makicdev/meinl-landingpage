@@ -1,6 +1,11 @@
 const wKarte = document.getElementById("Willkommenskarte")
 const closeBtn = document.getElementById("close-btn")
 const closeBtnNews = document.getElementById("close-btn-news")
+const logoEl = document.getElementById("logo-btn")
+
+logoEl.addEventListener("click", function(){
+  localStorage.removeItem("popup_shown")               // Wenn das Logo angeclickt wird, wird "popup-shown" aus dem LocalStorage entfernt.
+})
 
 function freezePage() {
   document.body.style.overflow = "hidden";
