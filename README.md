@@ -33,7 +33,8 @@ Hauptfeatures:
 
 1. **Willkommen-Popup**
    - Wird **nur einmal** pro Browser-Sitzung angezeigt (LocalStorage `"popup_shown"`).  
-   - Blockiert die Seite bis der Nutzer das Popup schließt.  
+   - Blockiert die Seite bis der Nutzer das Popup schließt.
+   - "popup_shown" kann mit einem klick auf das Meinl Logo aus dem LocalStorage gelöscht werden.
 
 2. **Scroll-to-Top Button**
    - erscheint beim Scrollen nach unten  
